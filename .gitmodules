@@ -1,0 +1,3 @@
+[submodule "scanner/base-find-sec-bugs"]
+	path = scanner/base-find-sec-bugs
+	url = https://github.com/find-sec-bugs/find-sec-bugs.git
