@@ -1,7 +1,7 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "Risk Assessment Framework REST API",
+  "description": "OWASP iGNITA REST API",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWASP/RiskAssessmentFramework"
+    "url": "git+https://github.com/azharanees/OWASP-iGNITA"
   },
   "author": "Azhar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/azharanees/RiskAssessmentFramework/issues"
+    "url": "https://github.com/azharanees/OWASP-iGNITA/issues"
   },
   "homepage": "https://www.owasp.org/index.php/Main_Page",
   "dependencies": {

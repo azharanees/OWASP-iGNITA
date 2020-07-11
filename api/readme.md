@@ -24,7 +24,7 @@ General components of the application that this PR will affect:
 
 
 
-**Risk Assessment Framework API**
+**OWASP iGNITA API**
 ----
 *POST CODE*
 
