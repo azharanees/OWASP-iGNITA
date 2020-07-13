@@ -25,7 +25,7 @@ Requirement which satisfy the Important Selection Criteria,
 - How hard is it to set up/use? - Dockerizing for easy setup
 - Can it be run continuously and automatically? - Will be tested and added to pipeline in github
 
-![GitHub Logo](/assets/images/Architecture.png)
+![Architecture](/assets/images/Architecture.png)
 <em>High level architecture diagram</em>
 
 ### Features of the Analyzer
