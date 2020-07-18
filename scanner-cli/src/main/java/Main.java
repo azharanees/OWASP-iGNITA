@@ -14,6 +14,9 @@ public class Main {
                 System.out.println("USAGE: Scanner path ");
                 return;
             case 1: scanner.setPath(args[0]);
+                return;
+            default:
+                System.out.println("USAGE: Scanner path ");
         }
         try {
             scanner.walkDirectory(scanner.getPath());
