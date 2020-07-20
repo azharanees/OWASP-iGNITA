@@ -1,0 +1,1 @@
+# Owasp ignita scanner plugin
