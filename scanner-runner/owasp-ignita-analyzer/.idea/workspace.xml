@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99b6017f-b1e1-4266-ba27-34c1d133d167" name="Default Changelist" comment="" />
+    <list default="true" id="99b6017f-b1e1-4266-ba27-34c1d133d167" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/owasp-ignita-analyzer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azhar/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azhar/Application.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +27,9 @@
   <component name="FindBugs-IDEA-Workspace">
     <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,6 +38,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1f85lkcWCx0C0qrSmeJk5GxxGDq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -42,6 +54,13 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -58,6 +77,8 @@
     <option name="myCommands">
       <command value="mvn clean" />
       <command value="mvn compile" />
+      <command value="mvn install" />
+      <command value="mvn clean install" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.All in owasp-ignita-analyzer">
@@ -100,6 +121,9 @@
       <option name="presentableId" value="Default" />
       <updated>1595587031746</updated>
       <workItem from="1595587034931" duration="908000" />
+      <workItem from="1595593580561" duration="864000" />
+      <workItem from="1595749648156" duration="8963000" />
+      <workItem from="1595783691754" duration="618000" />
     </task>
     <servers />
   </component>
@@ -111,22 +135,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="45" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1595587394903" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1595588034178">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1595779177989">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595588034178" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1595588034177">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595779177989" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1595779177989">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595588034177" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1595588034177">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595779177989" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1595779177989">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595588034177" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1595588034178">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595779177989" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1595779177989">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595588034178" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595779177989" />
     <state x="499" y="165" key="chooseDestDirectoryDialog" timestamp="1595587181321">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -135,9 +159,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="454" y="104" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768@0.0.1366.768" timestamp="1595587587812" />
-    <state x="339" y="172" width="672" height="677" key="run.anything.popup" timestamp="1595588034210">
+    <state x="339" y="172" width="672" height="677" key="run.anything.popup" timestamp="1595752670927">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="339" y="172" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1595588034210" />
+    <state x="339" y="172" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1595752670927" />
   </component>
 </project>

@@ -19,15 +19,15 @@ public class Application {
 
     private FindBugs2 findBugs;
 
-    Application() {
+    public Application() {
         this.findBugs = new FindBugs2();
     }
 
-    Collection<BugInstance> findBugs() throws IOException, InterruptedException {
+    public Collection<BugInstance> findBugs(String p) throws IOException, InterruptedException {
         Project project = new Project();
 
         addPlugin();
-        setupFiles(project);
+        setupFiles(project, p);
 
         BugCollection bugs = new SortedBugCollection();
         BugReporter bugReporter = new Reporter(bugs);
@@ -54,8 +54,8 @@ public class Application {
         }
     }
 
-    private void setupFiles(Project project) {
-        project.addFile(TARGET_JAR_PATH);
+    private void setupFiles(Project project, String path) {
+        project.addFile(path);
 
         Iterator<File> it = FileUtils.iterateFiles(new File("target/lib"), null, false);
         while(it.hasNext()) {
@@ -67,6 +67,7 @@ public class Application {
 
     public static void main(String[] args) throws InterruptedException, IOException {
         System.out.println("Scanning Files");
-        new Application().findBugs();
+        String path = args[0];
+        new Application().findBugs(path);
     }
 }
