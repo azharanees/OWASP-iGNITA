@@ -29,34 +29,6 @@ public class ReportController {
     private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
-    @GetMapping("/greeting")
-    public Report greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
-        String[] strArray1 = new String[]{"A", "B", "C"};
-        GsonBuilder gsonBuilder = new GsonBuilder();
-        Gson gson = gsonBuilder.create();
-        String JSONObject = gson.toJson(strArray1);
-        ArrayList<Bug> data = new ArrayList<>();
-        Report r = new Report(counter.incrementAndGet(), "yoyo");
-        try {
-            Application a = new Application();
-            Collection<BugInstance> bugs = a.findBugs();
-            for (BugInstance b :
-                    bugs) {
-                Bug bug = new Bug(b.getPrimarySourceLineAnnotation().toString(),b.getMessage(),b.getType());
-                data.add(bug);
-
-            }
-            r.setBugList(data);
-             JSONObject = gson.toJson(data);
-            log("\nConverted JSONObject ==> " + JSONObject);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        return r;
-    }
 
     @Autowired
     FileService fileService;
@@ -80,10 +52,11 @@ public class ReportController {
 
     private Report scanFile(Path p) {
         ArrayList<Bug> data = new ArrayList<>();
-        Report r = new Report(counter.incrementAndGet(), "yoyo");
+        System.out.println(p.toAbsolutePath());
+        Report r = new Report(counter.incrementAndGet(), "");
         try {
             Application a = new Application();
-            Collection<BugInstance> bugs = a.findBugs();
+            Collection<BugInstance> bugs = a.findBugs(p.toAbsolutePath().toString());
             for (BugInstance b :
                     bugs) {
                 Bug bug = new Bug(b.getPrimarySourceLineAnnotation().toString(),b.getMessage(),b.getType());

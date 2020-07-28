@@ -20,7 +20,7 @@ public class ApplicationTest {
 
     @Test
     public void testNoOfDefects() throws IOException, InterruptedException {
-        final Collection<BugInstance> defects = app.findBugs();
+        final Collection<BugInstance> defects = app.findBugs("uploads/webgoat-container-7.0.1.jar");
         assertThat(defects.size()).as("Should find more than 2 defects").isGreaterThan(2);
     }
 

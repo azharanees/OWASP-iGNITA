@@ -14,7 +14,7 @@ import java.util.Iterator;
 
 public class Application {
 
-    private static final String TARGET_JAR_PATH = "target/lib/webgoat-container-7.0.1.jar";
+    private static final String TARGET_JAR_PATH = "uploads/webgoat-container-7.0.1.jar";
     private static final String FINDSECBUGS_JAR_PATH = "target/lib/findsecbugs-plugin-1.9.0.jar";
 
     private FindBugs2 findBugs;
@@ -57,9 +57,14 @@ public class Application {
     private void setupFiles(Project project, String path) {
         project.addFile(path);
 
-        Iterator<File> it = FileUtils.iterateFiles(new File("target/lib"), null, false);
+        Iterator<File> it = FileUtils.iterateFiles(new File("target/uploads"), null, false);
+        Iterator<File> it2 = FileUtils.iterateFiles(new File("target/lib"), null, false);
         while(it.hasNext()) {
             File next = it.next();
+            if(!next.getName().equals(new File(TARGET_JAR_PATH).getName()))
+                project.addAuxClasspathEntry(next.getAbsolutePath());
+        }  while(it2.hasNext()) {
+            File next = it2.next();
             if(!next.getName().equals(new File(TARGET_JAR_PATH).getName()))
                 project.addAuxClasspathEntry(next.getAbsolutePath());
         }
@@ -67,7 +72,7 @@ public class Application {
 
     public static void main(String[] args) throws InterruptedException, IOException {
         System.out.println("Scanning Files");
-        String path = args[0];
-        new Application().findBugs(path);
+//        String path = args[0];
+        new Application().findBugs("target/lib/webgoat-container-7.0.1.jar");
     }
 }
