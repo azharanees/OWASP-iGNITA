@@ -27,6 +27,8 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { ReportComponent } from './view/history/report/report.component';
 import { ChartsComponent } from './view/history/charts/charts.component';
 import { AnalysisReportComponent } from './view/tools/top10/analysis-report/analysis-report.component';
+import { JavaAnalysisReportComponent } from './view/tools/java-scanner/java-analysis-report/analysis-report.component';
+import { JavaScannerComponent } from './view/tools/java-scanner/java-scanner.component';
 
 
 
@@ -51,6 +53,8 @@ import { AnalysisReportComponent } from './view/tools/top10/analysis-report/anal
     ChartsComponent,
     ReportComponent,
     AnalysisReportComponent,
+    JavaScannerComponent,
+    JavaAnalysisReportComponent,
 
 
   ],
@@ -70,7 +74,7 @@ import { AnalysisReportComponent } from './view/tools/top10/analysis-report/anal
   ],
   providers: [AuthGuardService, Top10Component],
   bootstrap: [AppComponent],
-  entryComponents: [DialogComponentComponent, BottomSheetOverviewExampleSheet, AnalysisReportComponent],
+  entryComponents: [DialogComponentComponent, BottomSheetOverviewExampleSheet, AnalysisReportComponent, JavaAnalysisReportComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 
 })

@@ -12,6 +12,7 @@ import { ToolsComponent } from './view/tools/tools.component';
 import { Top10Component } from './view/tools/top10/top10.component';
 import { RegistrationComponent } from './view/registration/registration.component';
 import { AuthGuardService } from './guards/auth-guard.service';
+import { JavaScannerComponent } from './view/tools/java-scanner/java-scanner.component';
 const routes: Routes = [
   { path: 'login', component: LoginComponent, },
   { path: 'home', component: HomeComponent, canActivate: [AuthGuardService] },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'support', component: SupportComponent, canActivate: [AuthGuardService] },
   { path: 'tools', component: ToolsComponent, canActivate: [AuthGuardService] },
   { path: 'tools/top10', component: Top10Component, canActivate: [AuthGuardService] },
+  { path: 'tools/java-scan', component: JavaScannerComponent, canActivate: [AuthGuardService] },
   { path: 'register', component: RegistrationComponent },
   { path: '**', redirectTo: 'home' }
 
