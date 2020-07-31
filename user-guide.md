@@ -37,11 +37,11 @@ https://www.mongodb.com/download-center/community
 ### Get the resource file from github  
 
 Clone the project : 
-`$ git clone https://github.com/OWASP/RiskAssessmentFramework.git`
+`$ git clone https://github.com/azharanees/OWASP-iGNITA.git`
 
 Or 
 
-Download the project from : https://github.com/OWASP/RiskAssessmentFramework/archive/master.zip
+Download the project from :https://github.com/azharanees/OWASP-iGNITA/archive/master.zip
 
 
 #### Step 2: 

@@ -118,8 +118,6 @@ export class BottomSheetOverviewExampleSheet {
 
   displayReport(data) {
 
-
-
   }
 
 }
