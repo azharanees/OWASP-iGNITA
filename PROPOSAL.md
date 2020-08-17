@@ -54,19 +54,19 @@ Requirement which satisfy the Important Selection Criteria,
 | 2.2 | Creating vulnerable samples | None | 5 | 15/06/20 |COMPLETED |
 | 2.3 | Writing test classes | Mentor Review | 5 | 23/06/20 |COMPLETED |
 | 2.4 | Configuring the detectors | None | 7 | 05/07/20 |COMPLETED |
-| 2.5 | Creating Detector classes | Mentor Review | 8 | 10/07/20 | IN-PROGRESS |
-| 2.6 | Integrating into the Dashboard | None | 9 | 20/07/20 | NOT STARTED |
-| 2.7 | Modifying the scanner for the plugin structure | Mentor Review | 10 | 25/07/20 |IN-PROGRESS |
-| 2.8 | Modifying for scanner to be added to multiple pipelines | Mentor Review | 10 | 30/07/20 |NOT STARTED |
+| 2.5 | Creating Detector classes | Mentor Review | 8 | 10/07/20 | COMPLETED |
+| 2.6 | Integrating into the Dashboard | None | 9 | 20/07/20 | COMPLETED |
+| 2.7 | Modifying the scanner for the plugin structure | Mentor Review | 10 | 25/07/20 |COMPLETED |
+| 2.8 | Modifying for scanner to be added to multiple pipelines | Mentor Review | 10 | 30/07/20 |COMPLETED |
 | **3 - Testing** |
-| 3.1 | Writing test cases | Mentor Review | 11 | 02/08/20 |NOT STARTED |
-| 3.2 | Testing detectors with sample code | Mentor Review | 12 | 09/08/20 |NOT STARTED |
-| 3.3 | Testing detectors for each developed vulnerability in know test set | None | 13 | 11/08/20 |NOT STARTED |
-| 3.4 | Testing with integrated dashboard | Mentor Review | 13 | 14/08/20 |NOT STARTED |
-| 3.5 | Testing the plugin | None | 14 | 16/08/20 |NOT STARTED |
+| 3.1 | Writing test cases | Mentor Review | 11 | 02/08/20 |COMPLETED |
+| 3.2 | Testing detectors with sample code | Mentor Review | 12 | 09/08/20 |COMPLETED|
+| 3.3 | Testing detectors for each developed vulnerability in know test set | None | 13 | 11/08/20 |COMPLETED |
+| 3.4 | Testing with integrated dashboard | Mentor Review | 13 | 14/08/20 |COMPLETED |
+| 3.5 | Testing the plugin | None | 14 | 16/08/20 |COMPLETED |
 | **4 - Deployment** |
-| 4.1 | Dockerizing the application with integrated scanner | Mentor Test | 14 | 18/08/20 |NOT STARTED |
-| 4.2 | Deploying Docker Image | None | 14 | 19/08/20 |NOT STARTED |
+| 4.1 | Dockerizing the application with integrated scanner | Mentor Test | 14 | 18/08/20 |IN-PROGRESS |
+| 4.2 | Deploying Docker Image | None | 14 | 19/08/20 |IN-PROGRESS |
 | **5 - Documentation** |
 | 5.1 | Documenting the Analyzer | Mentor Review | 14 | 21/08/20 |NOT STARTED |
 | 5.2 | Documenting the Plugin | Mentor Review | 14 | 22/08/20 |NOT STARTED |
