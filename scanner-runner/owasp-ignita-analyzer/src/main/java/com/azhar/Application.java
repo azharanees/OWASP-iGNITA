@@ -63,7 +63,8 @@ public class Application {
             File next = it.next();
             if(!next.getName().equals(new File(TARGET_JAR_PATH).getName()))
                 project.addAuxClasspathEntry(next.getAbsolutePath());
-        }  while(it2.hasNext()) {
+        }
+        while(it2.hasNext()) {
             File next = it2.next();
             if(!next.getName().equals(new File(TARGET_JAR_PATH).getName()))
                 project.addAuxClasspathEntry(next.getAbsolutePath());

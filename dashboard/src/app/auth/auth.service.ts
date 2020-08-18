@@ -41,7 +41,7 @@ export class AuthService {
   }
 
   isAuth() {
-    return true;
+    return this.user != null;;
   }
   constructor() { }
 
