@@ -19,7 +19,7 @@
   "homepage": "https://www.owasp.org/index.php/Main_Page",
   "dependencies": {
     "axios": "^0.19.2",
-    "bcrypt": "^3.0.8",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
