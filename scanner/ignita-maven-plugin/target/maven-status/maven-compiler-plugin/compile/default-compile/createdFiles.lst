@@ -1,0 +1,5 @@
+com\azhar\ignita\TableGenerator.class
+com\azhar\ignita\RuntimeExpResultProvider.class
+com\azhar\ignita\ResultProvider.class
+com\azhar\ignita\ScannerMojo.class
+META-INF\sisu\javax.inject.Named
